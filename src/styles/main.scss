@@ -282,7 +282,6 @@ ul.nav{
 }
 
 .statistics {
-  background-color: $statistics-background-color;
   color: $statistics-color;
   width: 80vw;
   padding: 1vh 1vw 1vh 1vw; 
@@ -290,8 +289,9 @@ ul.nav{
 }
 
 .introduction {
-  height: 40vh;
-  background-color: $accent-gray;
+  width: 80vw;
+  padding: 1vh 1vw 1vh 1vw; 
+  margin-bottom: 2em;
 }
 
 .navbar-brand {

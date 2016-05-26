@@ -3,6 +3,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as BenchmarkActions from '../actions/BenchmarkActions';
 import Project from '../components/Project';
+import Introduction from '../components/Introduction';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Statistics from '../components/Statistics';
@@ -24,7 +25,7 @@ export default class App extends Component {
       <div className="main-app-container">
         <Header personalInfo={personalInfo} />
         <Statistics benchmark={benchmark} />
-        <div className="main-app-nav">Selected Projects</div>
+        <Introduction personalInfo={personalInfo}/>
           {projectEntries}
         <Footer personalInfo={personalInfo} />
       </div>
