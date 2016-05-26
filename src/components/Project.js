@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React, { Component, PropTypes } from 'react';
 import Mobile from './projectComponents/Mobile.js';
 import TechStackItem from './projectComponents/TechStackItem';
@@ -9,9 +10,9 @@ export default class Project extends Component {
 
   render() {
     const { project } = this.props;
-    const techStackItems = project.tech_stack.map((tech, index) => {
-      return <TechStackItem key={index} tech={tech}/>;
-    });
+    const techStackItems = project.tech_stack.map((tech, index) => (
+      <TechStackItem key={index} tech={tech}/>
+    ));
 
     return (
       <div className="project-container">

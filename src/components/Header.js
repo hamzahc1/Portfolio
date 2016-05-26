@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 export default class Header extends Component {
   render() {
@@ -12,7 +12,11 @@ export default class Header extends Component {
               </div>
               <ul className="nav navbar-nav pull-right">
                 <li>
-                  <a href={personalInfo.resume} className="nav-link" target="_blank" style={{ lineHeight: 'normal' }}>
+                  <a href={personalInfo.resume}
+                    className="nav-link"
+                    target="_blank"
+                    style={{ lineHeight: 'normal' }}
+                  >
                     <span>Resume</span>
                   </a>
                 </li>
@@ -42,3 +46,7 @@ export default class Header extends Component {
     );
   }
 }
+
+Header.propTypes = {
+  personalInfo: PropTypes.object.isRequired
+};

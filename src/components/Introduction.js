@@ -12,5 +12,5 @@ export default class Introduction extends Component {
 }
 
 Introduction.propTypes = {
-  // personalInfo: PropTypes.object.isRequired
+  personalInfo: PropTypes.object.isRequired
 };
