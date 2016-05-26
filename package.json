@@ -1,7 +1,7 @@
 {
-  "name": "generator-simple-redux",
+  "name": "km_portfolio",
   "version": "1.0.0",
-  "description": "My simple redux application.",
+  "description": "A portfolio that contains my work",
   "scripts": {
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
