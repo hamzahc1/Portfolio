@@ -17,26 +17,28 @@ export default class Project extends Component {
     return (
       <div>
         <div className="project-container">
-          <div className="project-info">
-              { project.mobile_image !== '' ? <div className="show-when-small"><img width={"320px"} src={project.desktop_image}/></div> : null }
-            <a href={project.project_url} target="_blank">
-              <h2>{project.title}</h2>
-            </a>
-            <a href={project.github_url} target="_blank">
-              {project.github_url !== '' ? 'Github' : null}
-            </a>
-            <div>{project.date}</div>
-            <h3>Background</h3>
-            <div>{project.background}</div>
-            <h3>Role</h3>
-            <div>{project.role}</div>
-            <h3>Tech Stack</h3>
-            <div className="tech-icon-container">{techStackItems}</div>
+          <div className="project-container-rows">
+            <div className="project-info">
+                { project.mobile_image !== '' ? <div className="show-when-small"><img width={"320px"} src={project.desktop_image}/></div> : null }
+              <a href={project.project_url} target="_blank">
+                <h2>{project.title}</h2>
+              </a>
+              <a href={project.github_url} target="_blank">
+                {project.github_url !== '' ? 'Github' : null}
+              </a>
+              <div>{project.date}</div>
+              <h3>Background</h3>
+              <div>{project.background}</div>
+              <h3>Role</h3>
+              <div>{project.role}</div>
+            </div>
+            <div className="screenshot-container">
+              { project.mobile_image !== '' ? <div className="hide-when-small"><img src={project.desktop_image}/></div> : null }
+              { project.mobile_image !== '' ? <Mobile image={project.mobile_image}/> : null }
+            </div>
           </div>
-          <div className="screenshot-container">
-            { project.mobile_image !== '' ? <div className="hide-when-small"><img src={project.desktop_image}/></div> : null }
-            { project.mobile_image !== '' ? <Mobile image={project.mobile_image}/> : null }
-        </div>
+          <h3>Tech Stack</h3>
+          <div className="tech-icon-container">{techStackItems}</div>
         </div>
       </div>
     );
