@@ -14,6 +14,14 @@ const iconsData = {
   Redux: 'https://rawgit.com/gorangajic/react-icons/master/react-icons.svg',
   Redis: 'https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-512.png',
   Firebase: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYVuEMRdD7D21Hs-_bPC7LIO_8lIbmlg7_r8EpHq9LTdDS1d7wXQ',
+  Coinbase: 'https://www.coinbase.com/apple-touch-icon.png',
+  CodeMirror: 'https://codemirror.net/doc/logo.png',
+  GoogleMaps: 'https://lh3.googleusercontent.com/MOf9Kxxkj7GvyZlTZOnUzuYv0JAweEhlxJX6gslQvbvlhLK5_bSTK6duxY2xfbBsj43H=w300',
+  MapBox: 'http://www.macwright.org/presentations/beyond/mapbox_symbol.png',
+  iceComm: 'http://www.portalize.io/assets/techStack/icecomm.png',
+  AWS: 'https://assets.toptal.io/uploads/blog/category/logo/106/C.png',
+  'Digital Ocean': 'https://static.blockspring.com/tag-icons/digital%20ocean.png',
+  Bitrise: 'https://pbs.twimg.com/profile_images/509277348965781504/VRskGFs5.jpeg',
 };
 
 export { iconsData };

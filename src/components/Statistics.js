@@ -7,7 +7,7 @@ export default class Statistics extends Component {
     const { benchmark } = this.props;
 
     return (
-      <div className="statistics">
+      <div>
         React.js rendered this page in {benchmark} milliseconds. Refresh to benchmark again.
       </div>
     );

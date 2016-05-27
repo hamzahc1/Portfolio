@@ -9,14 +9,13 @@ const projectsData = {
       // date: '2016',
       github_url: 'https://github.com/Kinectsit/kinects-it',
       project_url: 'https://github.com/Kinectsit/kinects-it',
-      background: 'An Internet of Things application for homeowners to charge guests for power usage of appliances in their home.',
+      background: 'An IoT application for renting out usage of home appliances',
       role: [
-        'Configured hardware integration and automated API interactions by constructing a worker using Node, Cron, and Redis',
-        'Optimized loading times by developing a methodical client-server architecture design and state management with React / Redux',
-        'Developed statistical analysis algorithms and used D3 and Material UI to produce clean visualizations of complex data',
-        'Architected relational database schema and PostgreSQL queries to handle complexity of multiple asynchronous calls',
+        'Configured hardware integration and automated API interactions by constructing a worker with Node.js, Cron, and Redis',
+        'Led the client-server architecture design and optimized state management with React / Redux',
+        'Developed the relational database schema; implemented PostgreSQL with transactions to handle multiple asynchronous calls',
       ],
-      tech_stack: ['React.js', 'Redux', 'PostgreSQL', 'Redis', 'Node.js', 'express']
+      tech_stack: ['React.js', 'Redux', 'PostgreSQL', 'Redis', 'Node.js', 'express', 'Coinbase', 'd3.js', 'AWS']
     },
     {
       desktop_image: 'https://github.com/Jaded-Prophet/Codify/blob/master/README_IMGS/codifydemo.gif?raw=true',
@@ -25,12 +24,12 @@ const projectsData = {
       // date: '2016',
       github_url: 'https://github.com/Jaded-Prophet/Codify/',
       project_url: '',
-      background: 'A web app for tutors and students to communicate through video and real-time code sharing',
+      background: 'A platform for students to meet virtually with code tutors',
       role: [
-        'Enhanced inherited codebase by adding real-time video communication with custom AngularJS directives',
-        'Optimized user experience by implementing scheduling functionality with two-way data binding',
+        'Enhanced inherited codebase by adding peer-to-peer video communication',
+        'Implemented scheduling functionality front-to-end, using Node.js, MongoDB, and AngularJS',
       ],
-      tech_stack: ['MongoDB', 'express', 'AngularJS', 'Node.js']
+      tech_stack: ['MongoDB', 'express', 'AngularJS', 'Node.js', 'CodeMirror', 'GoogleMaps', 'iceComm', 'Digital Ocean']
     },
     {
       desktop_image: 'https://cloud.githubusercontent.com/assets/5761911/15594331/896d673c-2369-11e6-955b-79da410fadf5.png',
@@ -39,17 +38,14 @@ const projectsData = {
       // date: '2016',
       github_url: 'https://github.com/Jaded-Prophet/Lighthouse',
       project_url: '',
-      background: 'Real time geo-location sharing app to help users travel to their destination safely',
+      background: 'An app that communicates users’ travel paths to each other',
       role: [
-        'Led the architecture and styling of the front end with React Native and Flexbox, delivering a clean, responsive UI',
-        'Constructed user profiles and relationships on the client side while building queries to Firebase on the backend',
+        'Constructed user profile and relationships front-to-end; managed database interactions with Node.js and Firebase',
+        'Led the architecture of the front end with React Native and Flexbox',
       ],
-      tech_stack: ['React Native', 'socket.io', 'Firebase', 'Node.js', 'express']
+      tech_stack: ['React Native', 'socket.io', 'Firebase', 'Node.js', 'express', 'Bitrise', 'MapBox']
     }
   ]
 };
 
 export { projectsData };
-
-
-

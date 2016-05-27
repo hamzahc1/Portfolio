@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import * as BenchmarkActions from '../actions/BenchmarkActions';
 import Project from '../components/Project';
 import Introduction from '../components/Introduction';
-import Profile from '../components/Profile';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { startTime } from '../index';
@@ -16,7 +15,7 @@ export default class App extends Component {
   }
 
   render() {
-    const { projects, personalInfo } = this.props;
+    const { projects, personalInfo, benchmark } = this.props;
     const projectEntries = projects.map((project, index) => (
       <Project key={index} project={project} />
     ));
@@ -24,14 +23,13 @@ export default class App extends Component {
     return (
       <div className="main-app-container">
         <Header personalInfo={personalInfo} />
-        <Profile />
         <h1>Hi, I'm Krista.</h1>
         <Introduction personalInfo={personalInfo}/>
         <h2 textAlign={"center"}>Recent Projects</h2>
         <div className="projects">
           {projectEntries}
         </div>
-        <Footer personalInfo={personalInfo} />
+        <Footer personalInfo={personalInfo} benchmark={benchmark} />
       </div>
     );
   }

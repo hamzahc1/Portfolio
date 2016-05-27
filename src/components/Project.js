@@ -14,9 +14,7 @@ export default class Project extends Component {
       <TechStackItem key={index} tech={tech}/>
     ));
     const roleList = project.role.map((role, index) => (
-      <li key={index}>
-        {role}
-      </li>
+      <p key={index}> - {role}</p>
     ));
 
     return (
@@ -38,8 +36,9 @@ export default class Project extends Component {
                 </span>
               </h3>
               <div className="project-background">{project.background}</div>
-              <h4>Accomplishments:</h4>
-              <div><ul>{roleList}</ul></div>
+              <div className="spacing"></div>
+              <p><strong>Some of my contributions:</strong></p>
+              <div>{roleList}</div>
             </div>
             <div className="screenshot-container">
               { project.mobile_image !== '' ? <div className="hide-when-small"><img src={project.desktop_image}/></div> : null }
