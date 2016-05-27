@@ -1,5 +1,6 @@
 const iconsData = {
   'React.js': 'http://formatjs.io/img/react.svg',
+  'React Native': 'http://formatjs.io/img/react.svg',
   'Node.js': 'https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png',
   express: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png',
   PostgreSQL: 'http://tapoueh.org/images/220px-Postgresql_elephant.svg.png',
@@ -10,7 +11,9 @@ const iconsData = {
   neo4j: 'https://avatars3.githubusercontent.com/u/218965?v=3&s=200',
   'd3.js': 'https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Logo_D3.svg/1079px-Logo_D3.svg.png',
   Leaflet: 'http://leafletjs.com/docs/images/logo.png',
-  Redux: 'https://rawgit.com/gorangajic/react-icons/master/react-icons.svg'
+  Redux: 'https://rawgit.com/gorangajic/react-icons/master/react-icons.svg',
+  Redis: 'https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-512.png',
+  Firebase: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYVuEMRdD7D21Hs-_bPC7LIO_8lIbmlg7_r8EpHq9LTdDS1d7wXQ',
 };
 
 export { iconsData };
