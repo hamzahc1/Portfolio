@@ -38,7 +38,7 @@ const projectsData = {
       // date: '2016',
       github_url: 'https://github.com/Jaded-Prophet/Lighthouse',
       project_url: '',
-      background: 'An app that communicates users’ travel paths to each other',
+      background: 'An app that communicates user travel paths to each other',
       role: [
         'Constructed user profile and relationships front-to-end; managed database interactions with Node.js and Firebase',
         'Led the architecture of the front end with React Native and Flexbox',
