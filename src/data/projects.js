@@ -4,7 +4,7 @@ const projectsData = {
   data: [
     {
       desktop_image: 'https://github.com/Kinectsit/kinects-it/blob/master/tools/demokinectsit.gif?raw=true',
-      // mobile_image: 'https://cloud.githubusercontent.com/assets/5761911/15597196/b42d458c-2382-11e6-8c01-1efa9f639022.png',
+      mobile_image: 'https://cloud.githubusercontent.com/assets/5761911/15597196/b42d458c-2382-11e6-8c01-1efa9f639022.png',
       title: 'SumoChickn',
       // date: '2016',
       github_url: 'https://github.com/Nondescript-Cheese/SumoChickn',
