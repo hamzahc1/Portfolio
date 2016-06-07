@@ -8,7 +8,7 @@ export default class Introduction extends Component {
       <div className="introduction-container">
         <div className="introduction">
           <h4>
-            <p>I am a software engineer in San Francisco. I enjoy solving tough engineering challenges, and I've been particularly interested lately in database optimization and efficient state management in single-page apps.</p>
+            <p>I am a software engineer in London. I enjoy solving tough engineering challenges, and I've been particularly interested lately in database optimization and efficient state management in single-page apps.</p>
             <p>As an example of some of my work, I recently built an IoT application that homeowners (or AirBnB hosts!) use to rent appliances to guests. To solve the challenge of managing the hardware integration, I automated API interactions with a worker I built using Node.js, Cron, and Redis. I also optimized data management across the application by implementing transactions with PostgreSQL on the back end and isolating the state on the front end with React / Redux. You can read more about that application, and others, below.</p>
           </h4>
           <h5>
