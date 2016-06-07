@@ -23,7 +23,7 @@ export default class App extends Component {
     return (
       <div className="main-app-container">
         <Header personalInfo={personalInfo} />
-        <h1>Hi, I'm Krista.</h1>
+        <h1>Hi, I'm Hamzah.</h1>
         <Introduction personalInfo={personalInfo}/>
         <h2 textAlign={"center"}>Recent Projects</h2>
         <div className="projects">
