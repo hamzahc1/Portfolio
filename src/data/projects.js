@@ -4,32 +4,32 @@ const projectsData = {
   data: [
     {
       desktop_image: 'https://github.com/Kinectsit/kinects-it/blob/master/tools/demokinectsit.gif?raw=true',
-      mobile_image: 'https://cloud.githubusercontent.com/assets/5761911/15597196/b42d458c-2382-11e6-8c01-1efa9f639022.png',
-      title: 'Kinects.It',
+      // mobile_image: 'https://cloud.githubusercontent.com/assets/5761911/15597196/b42d458c-2382-11e6-8c01-1efa9f639022.png',
+      title: 'SumoChickn',
       // date: '2016',
-      github_url: 'https://github.com/Kinectsit/kinects-it',
-      project_url: 'https://github.com/Kinectsit/kinects-it',
-      background: 'An IoT application for renting out usage of home appliances',
+      github_url: 'https://github.com/Nondescript-Cheese/SumoChickn',
+      project_url: '',
+      background: 'A social gaming application for sending challenges to friends',
       role: [
         'Configured hardware integration and automated API interactions by constructing a worker with Node.js, Cron, and Redis',
         'Led the client-server architecture design and optimized state management with React / Redux',
         'Developed the relational database schema; implemented PostgreSQL with transactions to handle multiple asynchronous calls',
       ],
-      tech_stack: ['React.js', 'Redux', 'PostgreSQL', 'Redis', 'Node.js', 'express', 'Coinbase', 'd3.js', 'AWS']
+      tech_stack: ['React Native', 'Redux', 'MySQL', 'Sequelize' ,'Node.js', 'express', 'Digital Ocean', 'Facebook Developer', 'AWS']
     },
     {
       desktop_image: 'https://github.com/Jaded-Prophet/Codify/blob/master/README_IMGS/codifydemo.gif?raw=true',
       mobile_image: 'https://github.com/Jaded-Prophet/Codify/blob/master/README_IMGS/codifyMobile.png?raw=true',
-      title: 'Codify',
+      title: 'Togethr',
       // date: '2016',
       github_url: 'https://github.com/Jaded-Prophet/Codify/',
       project_url: '',
-      background: 'A platform for students to meet virtually with code tutors',
+      background: 'A collaborative event planning application for hosts to split the costs and items with guests',
       role: [
         'Enhanced inherited codebase by adding peer-to-peer video communication',
         'Implemented scheduling functionality front-to-end, using Node.js, MongoDB, and AngularJS',
       ],
-      tech_stack: ['MongoDB', 'express', 'AngularJS', 'Node.js', 'CodeMirror', 'GoogleMaps', 'iceComm', 'Digital Ocean']
+      tech_stack: ['AngularJS', 'express', 'Node.js', 'MySQL', 'Sequelize', 'GoogleMaps', 'socket.io' ,'Digital Ocean']
     },
     {
       desktop_image: 'https://cloud.githubusercontent.com/assets/5761911/15594331/896d673c-2369-11e6-955b-79da410fadf5.png',
