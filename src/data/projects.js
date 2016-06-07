@@ -32,7 +32,7 @@ const projectsData = {
       tech_stack: ['AngularJS', 'express', 'Node.js', 'Venmo', 'MySQL', 'Sequelize', 'GoogleMaps', 'socket.io' ,'Digital Ocean']
     },
     {
-      desktop_image: 'https://cloud.githubusercontent.com/assets/5761911/15594331/896d673c-2369-11e6-955b-79da410fadf5.png',
+      desktop_image: 'https://github.com/zestyepaulettes/Rudder/blob/master/rudder%20screenshot.png?raw=true',
       mobile_image: 'https://cloud.githubusercontent.com/assets/5761911/15593941/b92c2e3a-2365-11e6-908c-536f4e16af18.gif',
       title: 'Rudder',
       // date: '2016',
