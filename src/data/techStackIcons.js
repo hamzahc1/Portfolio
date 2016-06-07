@@ -25,6 +25,7 @@ const iconsData = {
   MySQL: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png',
   Sequelize: 'https://milinaudara.files.wordpress.com/2014/05/logo.png',
   'Facebook Developer': 'https://cdn.churchm.ag/wp-content/uploads/2011/10/Facebook-developers-logo.png',
+  Venmo: 'http://brand.venmo.com/img/logo-mark.png',
 };
 
 export { iconsData };

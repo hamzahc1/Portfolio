@@ -29,7 +29,7 @@ const projectsData = {
         'Enhanced inherited codebase by adding peer-to-peer video communication',
         'Implemented scheduling functionality front-to-end, using Node.js, MongoDB, and AngularJS',
       ],
-      tech_stack: ['AngularJS', 'express', 'Node.js', 'MySQL', 'Sequelize', 'GoogleMaps', 'socket.io' ,'Digital Ocean']
+      tech_stack: ['AngularJS', 'express', 'Node.js', 'Venmo', 'MySQL', 'Sequelize', 'GoogleMaps', 'socket.io' ,'Digital Ocean']
     },
     {
       desktop_image: 'https://cloud.githubusercontent.com/assets/5761911/15594331/896d673c-2369-11e6-955b-79da410fadf5.png',
