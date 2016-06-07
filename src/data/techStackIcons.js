@@ -3,6 +3,7 @@ const iconsData = {
   'React Native': 'http://formatjs.io/img/react.svg',
   'Node.js': 'https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png',
   express: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png',
+  mongoose: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png',
   PostgreSQL: 'http://tapoueh.org/images/220px-Postgresql_elephant.svg.png',
   'socket.io': 'https://www.pubnub.com/blog/wp-content/uploads/2014/07/SOCKETIOICON.gif',
   Ionic: 'http://uxrepo.com/static/icon-sets/ionicons/svg/ionic.svg',
@@ -26,6 +27,8 @@ const iconsData = {
   Sequelize: 'https://milinaudara.files.wordpress.com/2014/05/logo.png',
   'Facebook Developer': 'https://cdn.churchm.ag/wp-content/uploads/2011/10/Facebook-developers-logo.png',
   Venmo: 'http://brand.venmo.com/img/logo-mark.png',
+  GitHub: 'https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png',
+  Passport: 'https://pbs.twimg.com/profile_images/599259952574693376/DMrPoJtc.png'
 };
 
 export { iconsData };

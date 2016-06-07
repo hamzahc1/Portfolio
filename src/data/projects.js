@@ -22,7 +22,7 @@ const projectsData = {
       mobile_image: 'https://github.com/Jaded-Prophet/Codify/blob/master/README_IMGS/codifyMobile.png?raw=true',
       title: 'Togethr',
       // date: '2016',
-      github_url: 'https://github.com/Jaded-Prophet/Codify/',
+      github_url: 'https://github.com/zestyepaulettes/Togethr',
       project_url: '',
       background: 'A collaborative event planning application for hosts to split the costs and items with guests',
       role: [
@@ -34,16 +34,16 @@ const projectsData = {
     {
       desktop_image: 'https://cloud.githubusercontent.com/assets/5761911/15594331/896d673c-2369-11e6-955b-79da410fadf5.png',
       mobile_image: 'https://cloud.githubusercontent.com/assets/5761911/15593941/b92c2e3a-2365-11e6-908c-536f4e16af18.gif',
-      title: 'Lighthouse',
+      title: 'Rudder',
       // date: '2016',
-      github_url: 'https://github.com/Jaded-Prophet/Lighthouse',
+      github_url: 'https://github.com/zestyepaulettes/Rudder',
       project_url: '',
       background: 'An app that communicates user travel paths to each other',
       role: [
         'Constructed user profile and relationships front-to-end; managed database interactions with Node.js and Firebase',
         'Led the architecture of the front end with React Native and Flexbox',
       ],
-      tech_stack: ['React Native', 'socket.io', 'Firebase', 'Node.js', 'express', 'Bitrise', 'MapBox']
+      tech_stack: ['React.js', 'MongoDB', 'Node.js', 'express', 'mongoose', 'GitHub', 'Passport']
     }
   ]
 };
