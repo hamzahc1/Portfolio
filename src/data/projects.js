@@ -3,7 +3,7 @@
 const projectsData = {
   data: [
     {
-      desktop_image: 'https://github.com/Kinectsit/kinects-it/blob/master/tools/demokinectsit.gif?raw=true',
+      desktop_image: 'https://github.com/Nondescript-Cheese/SumoChickn/blob/master/sumochickn%20screenshot%20copy.png?raw=true',
       mobile_image: 'https://cloud.githubusercontent.com/assets/5761911/15597196/b42d458c-2382-11e6-8c01-1efa9f639022.png',
       title: 'SumoChickn',
       // date: '2016',
@@ -18,7 +18,7 @@ const projectsData = {
       tech_stack: ['React Native', 'Redux', 'MySQL', 'Sequelize' ,'Node.js', 'express', 'Digital Ocean', 'Facebook Developer', 'AWS']
     },
     {
-      desktop_image: 'https://github.com/Jaded-Prophet/Codify/blob/master/README_IMGS/codifydemo.gif?raw=true',
+      desktop_image: 'https://github.com/zestyepaulettes/Togethr/blob/master/Login.png?raw=true',
       mobile_image: 'https://github.com/Jaded-Prophet/Codify/blob/master/README_IMGS/codifyMobile.png?raw=true',
       title: 'Togethr',
       // date: '2016',
