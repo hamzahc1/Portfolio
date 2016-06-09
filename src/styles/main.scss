@@ -39,6 +39,9 @@ body {
   height: 3vh;  
 }
 
+.spacingtwo {
+  height: 1.5vh;  
+}
 .project-background {
   color: #a0a0a0;
 }
@@ -56,10 +59,26 @@ body {
 
 
 h1 {
-  font-family: Roboto Slab, sans-serif;
+  font-family: Helvetica, sans-serif;
   text-align: center;
   padding-bottom: 6vh;
   font-size: 12rem;
+}
+
+@-webkit-keyframes titleAnimation {
+  0%   {color: orange;}
+  25%  {color: #ff3333;}
+  50%  {color: #0099ff;}
+  75% {color: green;}
+  100% {color: orange;}
+
+}
+
+h1:hover{
+  animation-name: titleAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;   
+  
 }
 
 h2 {
