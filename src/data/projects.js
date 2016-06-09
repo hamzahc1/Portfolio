@@ -3,8 +3,8 @@
 const projectsData = {
   data: [
     {
-      desktop_image: 'https://github.com/Nondescript-Cheese/SumoChickn/blob/master/sumochickn%20screenshot%20copy.png?raw=true',
-      mobile_image: 'https://cloud.githubusercontent.com/assets/5761911/15597196/b42d458c-2382-11e6-8c01-1efa9f639022.png',
+      desktop_image: 'https://github.com/Nondescript-Cheese/SumoChickn/blob/master/sumochickn.gif?raw=true',
+      mobile_image: 'https://cloud.githubusercontent.com/assets/14341285/15947592/3de60e1e-2e94-11e6-951d-6851e7d0cfde.png',
       title: 'SumoChickn',
       // date: '2016',
       github_url: 'https://github.com/Nondescript-Cheese/SumoChickn',
