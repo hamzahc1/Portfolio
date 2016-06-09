@@ -8,14 +8,15 @@ export default class Introduction extends Component {
       <div className="introduction-container">
         <div className="introduction">
           <h4>
-            <p>I am a software engineer in London. I enjoy solving tough engineering challenges, and I've been particularly interested lately in database optimization and efficient state management in single-page apps.</p>
-            <p>As an example of some of my work, I recently built an IoT application that homeowners (or AirBnB hosts!) use to rent appliances to guests. To solve the challenge of managing the hardware integration, I automated API interactions with a worker I built using Node.js, Cron, and Redis. I also optimized data management across the application by implementing transactions with PostgreSQL on the back end and isolating the state on the front end with React / Redux. You can read more about that application, and others, below.</p>
+            <p>I'm a software engineer in London. I love solving tough engineering challenges and building awesome applications, watching them develop and advance with each iteration! Recently, I've been exploring advanced back-end scaling and efficient state management in single-page apps. </p>
+            
+            <p>In one of my last applications, I built a mobile application game for friends to send challenges to each other. To deploy quickly across both Android and iOS, I built the front-end views in React Native and used Redux to manage the application state. You can read more about that application, and others, below.</p>
           </h4>
           <h5>
-            <p><strong>Three things:</strong></p>
-            <p>1.  A year and a half ago, I had never been on a sailboat. I now have my Captain license.</p>
-            <p>2.  One of the first website consulting gigs I got was from a national archery organization. I used the money I made on it to buy a bow, and I have been shooting archery ever since.</p>
-            <p>3.  I average a book a week, and I have not broken my reading streak in two years.</p>
+            <strong><p>A few facts about me:</p>
+            <p>1.  I speak five languages fluently and am aiming to learn a new one every year.</p>
+            <p>2.  A couple of years ago I cycled 400km from the North of Jordan to the Southern most point on a child-size bike</p>
+            <p>3.  I can bake over 15 different types of brownies</p></strong>
           </h5>
         </div>
       </div>

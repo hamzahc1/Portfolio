@@ -9,13 +9,14 @@ const projectsData = {
       // date: '2016',
       github_url: 'https://github.com/Nondescript-Cheese/SumoChickn',
       project_url: '',
-      background: 'A social gaming application for sending challenges to friends',
+      background: 'A social gaming mobile application for sending challenges to friends.',
+      description: 'Users post proof of their attempts, others can then vote on whether the challenge has been successfully completed or not, resulting in the user gaining or losing points. ',
       role: [
         'Configured hardware integration and automated API interactions by constructing a worker with Node.js, Cron, and Redis',
         'Led the client-server architecture design and optimized state management with React / Redux',
         'Developed the relational database schema; implemented PostgreSQL with transactions to handle multiple asynchronous calls',
       ],
-      tech_stack: ['React Native', 'Redux', 'MySQL', 'Sequelize' ,'Node.js', 'express', 'Digital Ocean', 'Facebook Developer', 'AWS']
+      tech_stack: ['React Native', 'Redux', 'MySQL', 'Sequelize' ,'Node.js', 'express', 'AWS', 'Facebook Developer', 'Digital Ocean']
     },
     {
       desktop_image: 'https://github.com/zestyepaulettes/Togethr/blob/master/Login.png?raw=true',
@@ -38,7 +39,7 @@ const projectsData = {
       // date: '2016',
       github_url: 'https://github.com/zestyepaulettes/Rudder',
       project_url: '',
-      background: 'An app that communicates user travel paths to each other',
+      background: 'An app ',
       role: [
         'Constructed user profile and relationships front-to-end; managed database interactions with Node.js and Firebase',
         'Led the architecture of the front end with React Native and Flexbox',
