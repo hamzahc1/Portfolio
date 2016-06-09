@@ -36,6 +36,8 @@ export default class Project extends Component {
                 </span>
               </h3>
               <div className="project-background">{project.background}</div>
+              <div className="spacingtwo"></div>
+              <div>{project.description}</div>
 
               <div className="spacing"></div> 
               <p><strong>Some of my contributions:</strong></p>
