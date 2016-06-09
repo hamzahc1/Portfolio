@@ -22,7 +22,7 @@ export default class Project extends Component {
         <div className="project-container">
           <div className="project-container-rows">
             <div className="project-info">
-              { project.mobile_image !== '' ? <div className="show-when-small"><img width={"320px"} src={project.desktop_image}/></div> : null }
+              { project.desktop_image !== '' ? <div className="show-when-small"><img width={"320px"} src={project.desktop_image}/></div> : null }
               <h3>{project.title}
                 <span className="project-icon-window">
                   <a href={project.project_url} target="_blank">
@@ -36,13 +36,14 @@ export default class Project extends Component {
                 </span>
               </h3>
               <div className="project-background">{project.background}</div>
-              <div className="spacing"></div>
+
+              <div className="spacing"></div> 
               <p><strong>Some of my contributions:</strong></p>
               <div>{roleList}</div>
             </div>
             <div className="screenshot-container">
-              { project.mobile_image !== '' ? <div className="hide-when-small"><img src={project.desktop_image}/></div> : null }
-              { project.mobile_image !== '' ? <Mobile image={project.mobile_image}/> : null }
+              <div className="hide-when-small"><img src={project.desktop_image}/></div>
+              { project.mobile_image === '' ? null : <Mobile image={project.mobile_image}/>}
             </div>
           </div>
           <div className="tech-icon-container">{techStackItems}</div>
