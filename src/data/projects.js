@@ -20,7 +20,7 @@ const projectsData = {
     },
     {
       desktop_image: 'https://github.com/zestyepaulettes/Togethr/blob/master/Login.png?raw=true',
-      mobile_image: 'https://github.com/Jaded-Prophet/Codify/blob/master/README_IMGS/codifyMobile.png?raw=true',
+      mobile_image: 'https://cloud.githubusercontent.com/assets/14341285/15948272/b75b2b82-2e97-11e6-89d6-81848f5f522a.PNG',
       title: 'Togethr',
       // date: '2016',
       github_url: 'https://github.com/zestyepaulettes/Togethr',
@@ -36,7 +36,7 @@ const projectsData = {
     },
     {
       desktop_image: 'https://github.com/zestyepaulettes/Rudder/blob/master/rudder%20screenshot.png?raw=true',
-      mobile_image: 'https://cloud.githubusercontent.com/assets/5761911/15593941/b92c2e3a-2365-11e6-908c-536f4e16af18.gif',
+      mobile_image: '',
       title: 'Rudder',
       // date: '2016',
       github_url: 'https://github.com/zestyepaulettes/Rudder',
