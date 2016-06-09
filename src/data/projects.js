@@ -12,9 +12,9 @@ const projectsData = {
       background: 'A social gaming mobile application for sending challenges to friends.',
       description: 'Users post proof of their attempts, others can then vote on whether the challenge has been successfully completed or not, resulting in the user gaining or losing points. ',
       role: [
-        'Configured hardware integration and automated API interactions by constructing a worker with Node.js, Cron, and Redis',
-        'Led the client-server architecture design and optimized state management with React / Redux',
-        'Developed the relational database schema; implemented PostgreSQL with transactions to handle multiple asynchronous calls',
+        'Built front-end views with React Native/Flexbox for fast iOS/Android deployment and implemented Redux for application state management',
+        'Led the architecture of our RESTful API in Node.js to handle database queries',
+        'Used Amazon S3 Web Services to store uploaded photos/proof for challenges',
       ],
       tech_stack: ['React Native', 'Redux', 'MySQL', 'Sequelize' ,'Node.js', 'express', 'AWS', 'Facebook Developer', 'Digital Ocean']
     },
@@ -26,9 +26,11 @@ const projectsData = {
       github_url: 'https://github.com/zestyepaulettes/Togethr',
       project_url: '',
       background: 'A collaborative event planning application for hosts to split the costs and items with guests',
+      description: 'Hosts can create new events and invite their friends from Facebook, assign items for each guest to bring or send out split payment requests via Venmo. There is also a live chat feature for each event.',
       role: [
-        'Enhanced inherited codebase by adding peer-to-peer video communication',
-        'Implemented scheduling functionality front-to-end, using Node.js, MongoDB, and AngularJS',
+        'Enhanced inherited codebase by adding real-time updates and chat feature with websockets',
+        'Integrated Venmo API for automation of split payment requests',
+        'Implemented Facebook login and used user friends list for invites',
       ],
       tech_stack: ['AngularJS', 'express', 'Node.js', 'Venmo', 'MySQL', 'Sequelize', 'GoogleMaps', 'socket.io' ,'Digital Ocean']
     },
@@ -39,10 +41,11 @@ const projectsData = {
       // date: '2016',
       github_url: 'https://github.com/zestyepaulettes/Rudder',
       project_url: '',
-      background: 'An app ',
+      background: 'An application that matches and educates non-technical business owners with relevant developers for their tech needs',
+      description: 'Users sign up as either a tech provider or a tech user. Through a series of filtering queries, users are both educated and matched with the relevant providers for their needs.',
       role: [
-        'Constructed user profile and relationships front-to-end; managed database interactions with Node.js and Firebase',
-        'Led the architecture of the front end with React Native and Flexbox',
+        'Led architecture of the front end with React and React Router',
+        'Integrated Github OAuth for developers for increased security and enhanced user experience',
       ],
       tech_stack: ['React.js', 'MongoDB', 'Node.js', 'express', 'mongoose', 'GitHub', 'Passport']
     }

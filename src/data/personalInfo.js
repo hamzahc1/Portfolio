@@ -4,7 +4,7 @@ const personalInfoData = {
   github: 'https://github.com/hamzahc1',
   angelList: 'https://angel.co/hamzah-chaudhary',
   email: 'mailto:hamzahchaudhary@gmail.com',
-  resume: 'https://www.dropbox.com/s/k1a6x5usaujiimz/HamzahChaudharyResume2016.pdf?dl=0'
+  resume: 'https://www.dropbox.com/s/u7kqf69leomqgoh/HamzahChaudharyResume.pdf?dl=0'
 };
 
 export { personalInfoData };
