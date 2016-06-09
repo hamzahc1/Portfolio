@@ -17,7 +17,7 @@ $color-silver: #c5c5c5;
 $color-silver-dark: #b4b4b4;
 
 $header-text-color: white;
-$header-background-color: rgba(0,76,90,.9);
+$header-background-color: dodgerblue;
 
 $statistics-background-color: $color-snow;
 $statistics-color: $accent-black;
@@ -194,7 +194,7 @@ h5 {
   @include transition(all .4s $ease-in-circ);
   position: absolute;
   right: 2em;
-  top: 16vh;
+  top: 10vh;
   @media screen and (max-width: 1000px) {
     top: 10vh;
   }
@@ -321,7 +321,7 @@ ul.nav{
 .nav-link{
   border-top: 4px solid transparent;
   transition: border-top .3s;
-  &:hover{border-top: 4px solid dodgerblue;}
+  &:hover{border-top: 4px solid rgba(0,76,90,.9);}
 }
 
 .hide-when-small {
